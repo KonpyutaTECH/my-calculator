@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  react-app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src:/app/src
+    image: calculator:react
+    container_name: calculator_container
+    command: npm start

@@ -1,0 +1,17 @@
+.calculator{
+    width: 70vw;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 31% 15% 15% 15% 15% 6%;
+    row-gap: 4px;
+    column-gap: 4px;
+}
+
+@media (max-width: 1000px){
+    .calculator{
+        width: 100%;
+    }
+}

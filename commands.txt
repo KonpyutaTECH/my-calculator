@@ -1,0 +1,13 @@
+For simple docker :
+
+- docker build --tag mycalculator
+- docker run --publish 3000:3000 mycalculator
+
+For docker compose :
+
+- docker-compose build
+- docker-compose up
+
+For documentation and test:
+
+- npm run storybook

@@ -1,0 +1,50 @@
+.key{
+  border: none;
+
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
+  transition: background-color 0.3s;
+}
+
+.key:active{
+  outline: none;
+  border: none;
+}
+
+.key:hover{
+  background-color: rgb(81, 69, 109)
+}
+
+.number{
+  background-color: rgb(94, 94, 94);
+}
+
+.operator{
+  background-color: rgb(71, 71, 71);
+}
+
+.del{
+  grid-column-start:1;
+  grid-column-end: 3;
+}
+
+.refresh{
+  grid-column-start:3;
+  grid-column-end: 5;
+}
+
+.enter{
+  color: rgb(71, 71, 71);
+}
+
+.enter:hover{
+  background-color: rgb(200, 200, 200);
+}
+
+@media (max-height: 400px){
+  .key{
+      font-size: 1rem;
+  }
+}
+
